@@ -28,3 +28,26 @@ function checkPythagoras (x,y,z){
 }
 let result = checkPythagoras(5,3,4)
 console.log(result)
+
+
+//task 3
+
+function minMax(arr3){
+    let maxarr = arr3 [0]
+    let minarr = arr3 [0]
+    for (let i3 = 0; i3 < arr3.length; i3++){
+        if(arr3[i3] > maxarr){
+            maxarr = arr3 [i3]
+        }
+        if(arr3[i3] < minarr){
+            minarr = arr3[i3]
+        }
+        
+    }console.log(`Min value is  ${minarr} & and Max value is  ${maxarr}`)
+}
+
+let newarr3 = [2,14,25,75,11,6]
+let result3 = minMax(newarr3)
+
+//task 4
+
